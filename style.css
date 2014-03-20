@@ -14,7 +14,19 @@ div.wrapper {
 	top: 4em;
 	clear: both;
 	padding: 16px;
+	background-color: #FAFAFA;
+}
 
+div.menu {
+	display: table;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	position: fixed;
+	height: 4em;
+	top: 0px;
+	z-index: 100;
+	
 	/* fallback */
 	background-color: #4040A0;
 
@@ -35,18 +47,6 @@ div.wrapper {
 
 	/* CSS3 Standard syntax */
 	background: linear-gradient(top, #424278, #4040A0);
-}
-
-div.menu {
-	display: table;
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	position: fixed;
-	height: 4em;
-	top: 0px;
-	z-index: 100;
-	background-color: #4040A0;
 }
 
 div.menu a {
