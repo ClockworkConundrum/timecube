@@ -91,15 +91,44 @@ div.menu a:hover {
 	/* CSS3 Standard syntax */
 	background: linear-gradient(top, #1F1F4E, #151568);
 }
-/*
+
 div.menu a.padding:hover {
+	/* fallback */
 	background-color: #4040A0;
+
+	/* Safari 4-5, Chrome 1-9 */
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4040A0), to(#424278));
+
+	/* Safari 5.1, Chrome 10+ */
+	background: -webkit-linear-gradient(top, #424278, #4040A0);
+
+	/* Firefox 3.6+ */
+	background: -moz-linear-gradient(top, #424278, #4040A0);
+
+	/* IE 10 */
+	background: -ms-linear-gradient(top, #424278, #4040A0);
+
+	/* Opera 11.10+ */
+	background: -o-linear-gradient(top, #424278, #4040A0);
+
+	/* CSS3 Standard syntax */
+	background: linear-gradient(top, #424278, #4040A0);
 }
-*/
+
 p {
 	line-height: 1.5em;
 	margin-bottom: 1.5em;
 	text-align: justify;
+}
+
+a {
+	color: #4040A0;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #151568;
+	text-decoration: underline;
 }
 
 h1, h2, h3, h4, h5, h6 {
