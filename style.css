@@ -68,21 +68,8 @@ div.menu li {
 	list-style: none;
 }
 
-div.menu div li a {
-	display: block;
-	margin: 0;
-	padding: 4px 10px;
-	width: 100px;
-	background: #AAAAAA;
-	color: #333333;
-	text-shadow: none;
-	font-size: 14px;
-	height: 1em;
-	line-height: 1em;
-}
-
-div.menu a {
-	text-decoration: none;
+div.menu li a {
+		text-decoration: none;
 	text-transform: uppercase;
 	text-align: center;
 	font-family: "Montserrat";
@@ -98,7 +85,20 @@ div.menu a {
 	margin-right: 1em;
 }
 
-div.menu a:hover {
+div.menu div li a {
+	display: block;
+	margin: 0;
+	padding: 4px 10px;
+	width: 100px;
+	background: #AAAAAA;
+	color: #333333;
+	text-shadow: none;
+	font-size: 14px;
+	height: 1em;
+	line-height: 1em;
+}
+
+div.menu li a:hover {
 	background-color: #151568;
 
 
@@ -124,28 +124,7 @@ div.menu a:hover {
 	background: linear-gradient(top, #1F1F4E, #151568);
 }
 
-div.menu a.padding:hover {
-	/* fallback */
-	background-color: #4040A0;
 
-	/* Safari 4-5, Chrome 1-9 */
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#4040A0), to(#424278));
-
-	/* Safari 5.1, Chrome 10+ */
-	background: -webkit-linear-gradient(top, #424278, #4040A0);
-
-	/* Firefox 3.6+ */
-	background: -moz-linear-gradient(top, #424278, #4040A0);
-
-	/* IE 10 */
-	background: -ms-linear-gradient(top, #424278, #4040A0);
-
-	/* Opera 11.10+ */
-	background: -o-linear-gradient(top, #424278, #4040A0);
-
-	/* CSS3 Standard syntax */
-	background: linear-gradient(top, #424278, #4040A0);
-}
 
 p {
 	line-height: 1.5em;
