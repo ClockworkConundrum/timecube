@@ -94,10 +94,8 @@ div.menu a {
 	/* display: table-cell; */
 	vertical-align: middle;
 	width: 120px;
-	/*
 	margin-left: 1em;
 	margin-right: 1em;
-	*/
 }
 
 div.menu a:hover {
