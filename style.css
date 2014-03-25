@@ -22,7 +22,7 @@ div.hide {
 }
 
 div.menu {
-	/* display: table; */
+	display: table;
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -90,7 +90,7 @@ div.menu a {
 	font-size: 1.5em;
 	color: #FAFAFA;
 	text-shadow: -1px -1px 0.5px #333333;
-	/* display: table-cell; */
+	display: table-cell;
 	vertical-align: middle;
 	width: 120px;
 	margin-left: 1em;
