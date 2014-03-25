@@ -28,5 +28,5 @@
 		}
 	}
 
-	document.onClick = menuClose;
+	document.onclick = menuClose;
 }
