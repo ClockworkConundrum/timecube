@@ -85,7 +85,11 @@ div.menu li a {
 	margin-right: 1em;
 }
 
-div.menu div li a {
+div.menu li div {
+	position: absolute;
+}
+
+div.menu li div li a {
 	display: block;
 	margin: 0;
 	padding: 4px 10px;
