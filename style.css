@@ -63,9 +63,7 @@ div.menu div {
 	border: 1px solid #000000;
 }
 
-div.menu div li {
-	margin: 0;
-	padding: 0;
+div.menu li {
 	list-style: none;
 }
 
