@@ -22,7 +22,7 @@ div.hide {
 }
 
 div.menu {
-	display: table;
+	/* display: table; */
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -56,7 +56,7 @@ div.menu {
 div.menu div {
 	z-index: 150;
 	position: absolute;
-	visibility: hidden;
+	display: none;
 	margin: 0px;
 	padding: 0px;
 	background: #AAAAAA;
