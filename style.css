@@ -54,8 +54,9 @@ div.menu {
 }
 
 div.menu div {
+	float: left;
 	z-index: 150;
-	position: relative;
+	position: absolute;
 	display: none;
 	margin: 0px;
 	padding: 0px;
@@ -67,7 +68,6 @@ div.menu div li {
 	margin: 0;
 	padding: 0;
 	list-style: none;
-	float: left;
 }
 
 div.menu div li a {
@@ -80,7 +80,6 @@ div.menu div li a {
 	color: #333333;
 	text-shadow: none;
 	font-size: 14px;
-	font-family: "Droid Serif";
 }
 
 div.menu a {
