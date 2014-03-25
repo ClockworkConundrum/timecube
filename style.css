@@ -55,7 +55,7 @@ div.menu {
 
 div.menu div {
 	z-index: 150;
-	position: relative;
+	position: absolute;
 	display: none;
 	margin: 0px;
 	padding: 0px;
@@ -71,12 +71,16 @@ div.menu div li {
 }
 
 div.menu div li a {
+	position: relative;
 	display: block;
 	margin: 0;
 	padding: 4px 10px;
 	width: 100px;
 	background: #AAAAAA;
 	color: #333333;
+	text-shadow: none;
+	font-size: 1em;
+	font-family: "Droid Serif";
 }
 
 div.menu a {
