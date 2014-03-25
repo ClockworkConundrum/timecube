@@ -53,6 +53,10 @@ div.menu {
 	background: linear-gradient(top, #424278, #4040A0);
 }
 
+div.menu li {
+	z-index: 150;
+}
+
 div.menu a {
 	text-decoration: none;
 	text-transform: uppercase;
