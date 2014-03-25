@@ -17,6 +17,10 @@ div.wrapper {
 	background-color: #FAFAFA;
 }
 
+div.hide {
+	display: none;
+}
+
 div.menu {
 	display: table;
 	width: 100%;
