@@ -64,6 +64,7 @@ div.menu div {
 }
 
 div.menu li {
+	display: inline;
 	list-style: none;
 }
 
