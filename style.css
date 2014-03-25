@@ -89,8 +89,11 @@ div.menu a {
 	font-size: 1.5em;
 	color: #FAFAFA;
 	text-shadow: -1px -1px 0.5px #333333;
+	height: 4em;
 	line-height: 4em;
 	width: 120px;
+	padding-left: 1em;
+	padding-right: 1em;
 	margin-left: 1em;
 	margin-right: 1em;
 }
