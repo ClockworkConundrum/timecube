@@ -91,7 +91,7 @@ div.menu a {
 	color: #FAFAFA;
 	text-shadow: -1px -1px 0.5px #333333;
 	display: table-cell;
-	vertical-align: middle;
+	height: 4em;
 	width: 120px;
 	margin-left: 1em;
 	margin-right: 1em;
