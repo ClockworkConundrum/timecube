@@ -11,12 +11,12 @@ function menuOpen(id) {
 	menuClose();
 
 	currentMenuItem = document.getElementById(id);
-	currentMenuItem.style.visibility = 'visible';
+	currentMenuItem.style.display = 'block';
 }
 
 function menuClose() {
 	if (currentMenuItem) {
-		currentMenuItem.style.visibility = 'hidden';
+		currentMenuItem.style.display = 'none';
 	}
 }
 
