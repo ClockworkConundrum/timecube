@@ -23,6 +23,7 @@ div.hide {
 
 div.menu {
 	width: 100%;
+	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	position: fixed;
@@ -79,6 +80,8 @@ div.menu div li a {
 	color: #333333;
 	text-shadow: none;
 	font-size: 14px;
+	height: 1em;
+	line-height: 1em;
 }
 
 div.menu a {
