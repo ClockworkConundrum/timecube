@@ -55,7 +55,7 @@ div.menu {
 
 div.menu div {
 	z-index: 150;
-	position: absolute;
+	position: relative;
 	display: none;
 	margin: 0px;
 	padding: 0px;
