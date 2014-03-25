@@ -53,8 +53,30 @@ div.menu {
 	background: linear-gradient(top, #424278, #4040A0);
 }
 
-div.menu li {
+div.menu div {
 	z-index: 150;
+	position: absolute;
+	visibility: hidden;
+	margin: 0px;
+	padding: 0px;
+	background: #AAAAAA;
+	border: 1px solid #000000;
+}
+
+div.menu div li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+}
+
+div.menu div li a {
+	display: block;
+	margin: 0;
+	padding: 4px 10px;
+	width: 100px;
+	background: #AAAAAA;
+	color: #333333;
 }
 
 div.menu a {
