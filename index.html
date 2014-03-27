@@ -1,50 +1,64 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
-		<link rel="stylesheet" type="text/css" href="./style.css">
-		<link rel="stylesheet" type="text/css" href="./fonts.css">
-		<script src="./js/showContent.js" rel="javascript" type="text/javascript"></script>
-		<script src="./js/dropDownMenus.js" rel="javascript" type="text/javascript"></script>
-		<title>Time Cube</title>
+		<link href="/style.css" rel="stylesheet" type="text/css">
+		<link href="/fonts.css" rel="stylesheet" type="text/css">
+		<link href="/favicon.gif" rel="icon" type="image/gif">
+		<script src="/js/showContent.js" rel="javascript" type="text/javascript"></script>
+		<script src="/js/dropDownMenus.js" rel="javascript" type="text/javascript"></script>
+		<title>Time Cube - Home</title>
 	</head>
-	<body>
+	<body onload="showContent(document.URL.split('#').length > 1 ? document.URL.split('#')[1] : 'history');">
 		<div class="menu">
 			<ul>
 				<li>
-					<a onmouseover="menuOpen('menuHome');" onclick="menuOpen('menuHome');" onmouseout="menuCloseOnTimer();">Home</a>
+					<a onmouseover="menuOpen('menuHome');" onmouseout="menuCloseOnTimer();">Home</a>
 					<div id="menuHome" onmouseover="menuCancelClose();" onmouseout="menuCloseOnTimer();">
-						<a onclick="showContent('history');">History</a>
-						<a onclick="showContent('navel');">How the navel disproves religion</a>
-						<a onclick="showContent('opposites');">Opposites attract</a>
+						<a href="#history" onclick="showContent('history');">History</a>
+						<a href="#navel" onclick="showContent('navel');">How the navel disproves religion</a>
+						<a href="#opposites" onclick="showContent('opposites');">Opposites attract</a>
+						<a href="#cubicArmy" onclick="showContent('cubicArmy');">Enlist in the Cubic Army of Four Days</a>
+						<a href="#how" onclick="showContent('how');">How the Time Cube works</a>
+						<a href="#disprove" onclick="showContent('disprove');">Can you disprove Time Cube?</a>
+						<a href="#interview" onclick="showContent('interview');">Gene Ray interview</a>
 					</div>
 				</li>
 				<li>
-					<a onmouseover="menuOpen('menuLiterature');" onclick="menuOpen('menuHome');" onmouseout="menuCloseOnTimer();">Literature</a>
+					<a onmouseover="menuOpen('menuLiterature');" onmouseout="menuCloseOnTimer();">Literature</a>
 					<div id="menuLiterature" onmouseover="menuCancelClose();" onmouseout="menuCloseOnTimer();">
-						<a>such menu</a>
-						<a>very link</a>
+						<a href="/literature/CorruptionOfWord.html">Corruption of Word</a>
+						<a href="/literature/PedanticMindControl.html">Pedantic Mind Control</a>
+						<a href="/literature/ThePowerAboveGod.html">The Power Above God</a>
+						<a href="/literature/AreYouJewish.html">Are You Jewish?</a>
+						<a href="/literature/PublicWarning.html">Public Warning</a>
+						<a href="/literature/ToDenyTimeCubeIsEvil.html">To Deny Time Cube is Evil</a>
+						<a href="/literature/CreationOriginFoundInHigherOrderCubeForm.html">Creation Origin Found in<br>Higher Order Cube Form</a>
+						<a href="/literature/AllClockFacesAreWrong.html">All Clock Faces Are Wrong</a>
+						<a href="/literature/ProvingHumanStupidity.html">Proving Human Stupidity</a>
 					</div>
 				</li>
 				<li>
-					<a onmouseover="menuOpen('menuLinks');" onclick="menuOpen('menuHome');" onmouseout="menuCloseOnTimer();">Links</a>
+					<a onmouseover="menuOpen('menuLinks');" onmouseout="menuCloseOnTimer();">Links</a>
 					<div id="menuLinks" onmouseover="menuCancelClose();" onmouseout="menuCloseOnTimer();">
 					<a href="http://www.timecube.com/">The original Time Cube site</a>
 					<a href="http://www.thewisesthuman.com/">The Wisest Human, another site by Gene Ray</a>
+					<a href="http://www.abovegod.com/">Above God, the third site in the Time Cube trilogy</a>
+					<a href="http://thegreatestthinker.com/">The Greatest Thinker, the fourth Gene Ray site</a>
 					</div>
 				</li>
 				<li>
-					<a onmouseover="menuOpen('menuAbout');" onclick="menuOpen('menuHome');" onmouseout="menuCloseOnTimer();">About</a>
+					<a onmouseover="menuOpen('menuAbout');" onmouseout="menuCloseOnTimer();">About</a>
 					<div id="menuAbout" onmouseover="menuCancelClose();" onmouseout="menuCloseOnTimer();">
-						<a>how2javascript</a>
-						<a>3code5u</a>
+						<a href="/about.html#author">Gene Ray, the original author</a>
+						<a href="/about.html#contact">Contact</a>
 					</div>
 				</li>
 			</ul>
 		</div>
 		<div class="wrapper">
 			<div>
-			<h1>Time Cube</h1>
-				<h2>A Revolutionary New Theory</h2>
+				<h1>Time Cube</h1>
+				<h2>A Revolutionary Theory</h2>
 				<p>Welcome to the Time Cube site. Time Cube is the brainchild of Gene Ray, engineer and philosopher, formulated in 1997. The core hypothesis of Time Cube is that linear time is a misconception: Earth actually passes through four simultaneous days, instead of merely one. This theory is yet to reach the status of mainstream scientific knowledge.</p>
 			</div>
 			<div class="hide" id="history">
@@ -57,7 +71,24 @@
 			</div>
 			<div class="hide" id="opposites">
 				<h2>Opposites attract</h2>
-				<p>It's more than just a saying. Everything in the Universe has positive and negative aspects, which, when considered as a whole, are in perfect balance. All creation occurs between these opposites, for if everything is uniform, there cannot be any change. Mother, father, son, and daughter: all of these are in balance. Four is a very important number for the Time Cube philosophy - there are two pairs of opposite corners in the Cube, major and minor, which exist in balance.
+				<p>It's more than just a saying. Everything in the Universe has positive and negative aspects, which, when considered as a whole, are in perfect balance. All creation occurs between these opposites, for if everything is uniform, there cannot be any change. Male, female, sun and moon: all of these are in balance.</p>
+				<p>Four is a very important number for the Time Cube philosophy: there are two pairs of opposite corners in the Cube, major and minor, which exist in balance.</p>
+			</div>
+			<div class="hide" id="cubicArmy">
+				<h2>Enlist in the Cubic Army of Four Days</h2>
+				<p>The Cubic Army is name given to those who subscribe to the Time Cube philosophy. The Cubic Army is a non-profit organisation dedicated to helping those in poverty to meet their physical and spiritual needs and educating people around the world about the Time Cube. If you are interested in joining the Cubic Army, do not hesistate to get in <a>contact</a>.</p>
+			</div>
+			<div class="hide" id="how">
+				<h2>How the Time Cube works</h2>
+				<img src="./img/timecubeflierimg.gif" alt="A diagram depicting the Time Cube and how it works" title="A diagram depicting the Time Cube and how it works">
+			</div>
+			<div class="hide" id="disprove">
+				<h2>Can you disprove Time Cube? $10,000 says you can't</h2>
+				<p>The creator of Time Cube, Gene Ray, is so confident in his theory that he is offering up ten thousand dollars to anyone who can convince him he is wrong. If you think you have the mental fortitude to do so, do not hesitate to get in <a>contact</a>.</p>
+			</div>
+			<div class="hide" id="interview">
+				<h2>Gene Ray Interview</h2>
+				<iframe width="420" height="315" src="//www.youtube.com/embed/Tn2UCqL5qyo" frameborder="0" allowfullscreen></iframe>
 			</div>
 		</div>
 	</body>

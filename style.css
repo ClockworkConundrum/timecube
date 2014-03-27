@@ -113,9 +113,9 @@ div.menu li div {
 	visibility: hidden;
 	position: absolute;
 	background-color: #FAFAFA;
-	border-left: 1px solid #151568;
-	border-right: 1px solid #151568;
-	border-bottom: 1px solid #151568;
+	border-left: 1px solid #333333;
+	border-right: 1px solid #333333;
+	border-bottom: 1px solid #333333;
 }
 
 div.menu li div a {
@@ -132,6 +132,7 @@ div.menu li div a {
 
 div.menu li div a:hover {
 	background-color: #333333;
+	background: #333333;
 	color: #FAFAFA;
 }
 
