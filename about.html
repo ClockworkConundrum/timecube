@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<link href="/style.css" rel="stylesheet" type="text/css">
+		<link href="/fonts.css" rel="stylesheet" type="text/css">
+		<link href="/favicon.gif" rel="icon" type="image/gif">
+		<script src="/js/showContent.js" rel="javascript" type="text/javascript"></script>
+		<script src="/js/dropDownMenus.js" rel="javascript" type="text/javascript"></script>
+		<title>Time Cube - About</title>
+	</head>
+	<body onload="showContent(document.URL.split('#').length > 1 ? document.URL.split('#')[1] : 'author');">
+		<div class="menu">
+			<ul>
+				<li>
+					<a onmouseover="menuOpen('menuHome');" onmouseout="menuCloseOnTimer();">Home</a>
+					<div id="menuHome" onmouseover="menuCancelClose();" onmouseout="menuCloseOnTimer();">
+						<a href="/index.html#history">History</a>
+						<a href="/index.html#navel">How the navel disproves religion</a>
+						<a href="/index.html#opposites">Opposites attract</a>
+						<a href="/index.html#cubicArmy">Enlist in the Cubic Army of Four Days</a>
+						<a href="/index.html#how">How the Time Cube works</a>
+						<a href="/index.html#disprove">Can you disprove Time Cube?</a>
+						<a href="/index.html#interview">Gene Ray interview</a>
+					</div>
+				</li>
+				<li>
+					<a onmouseover="menuOpen('menuLiterature');" onmouseout="menuCloseOnTimer();">Literature</a>
+					<div id="menuLiterature" onmouseover="menuCancelClose();" onmouseout="menuCloseOnTimer();">
+						<a href="/literature/CorruptionOfWord.html">Corruption of Word</a>
+						<a href="/literature/PedanticMindControl.html">Pedantic Mind Control</a>
+						<a href="/literature/ThePowerAboveGod.html">The Power Above God</a>
+						<a href="/literature/AreYouJewish.html">Are You Jewish?</a>
+						<a href="/literature/PublicWarning.html">Public Warning</a>
+						<a href="/literature/ToDenyTimeCubeIsEvil.html">To Deny Time Cube is Evil</a>
+						<a href="/literature/CreationOriginFoundInHigherOrderCubeForm.html">Creation Origin Found in<br>Higher Order Cube Form</a>
+						<a href="/literature/AllClockFacesAreWrong.html">All Clock Faces Are Wrong</a>
+						<a href="/literature/ProvingHumanStupidity.html">Proving Human Stupidity</a>
+					</div>
+				</li>
+				<li>
+					<a onmouseover="menuOpen('menuLinks');" onmouseout="menuCloseOnTimer();">Links</a>
+					<div id="menuLinks" onmouseover="menuCancelClose();" onmouseout="menuCloseOnTimer();">
+					<a href="http://www.timecube.com/">The original Time Cube site</a>
+					<a href="http://www.thewisesthuman.com/">The Wisest Human, another site by Gene Ray</a>
+					<a href="http://www.abovegod.com/">Above God, the third site in the Time Cube trilogy</a>
+					<a href="http://thegreatestthinker.com/">The Greatest Thinker, the fourth Gene Ray site</a>
+					</div>
+				</li>
+				<li>
+					<a onmouseover="menuOpen('menuAbout');" onmouseout="menuCloseOnTimer();">About</a>
+					<div id="menuAbout" onmouseover="menuCancelClose();" onmouseout="menuCloseOnTimer();">
+						<a href="#author" onclick="showContent('author');">Gene Ray, the original author</a>
+						<a href="#contact" onclick="showContent('contact');">Contact</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="wrapper">
+			<div>
+				<h1>Time Cube</h1>
+				<h2>A Revolutionary Theory</h2>
+				<p>Welcome to the Time Cube site. Time Cube is the brainchild of Gene Ray, engineer and philosopher, formulated in 1997. The core hypothesis of Time Cube is that linear time is a misconception: Earth actually passes through four simultaneous days, instead of merely one. This theory is yet to reach the status of mainstream scientific knowledge.</p>
+			</div>
+			<div class="hide" id="author">
+				<h2>Gene Ray</h2>
+				<img src="./img/generay.jpg">
+				<p>Gene Ray, born Otis Eugene Ray, is the self-proclaimed "wisest human" and "Doctor of Cubism". He is also a former electrician.</p>
+			</div>
+			<div class="hide" id="contact">
+				<h2>Contact</h2>
+				<p>Email: <a href="mailto:oray612959@earthlink.net">oray612959@earthlink.net</a></p>
+			</div>
+		</div>
+	</body>
+</html>
